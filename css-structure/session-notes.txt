@@ -1,0 +1,22 @@
+
+Css profile gets processed top to bottom - bottom one overrides one above
+class stronger than element. id stronger than class etc.
+Can look up - if there is a problem if you are overriding styles with another statement 
+Can look up online
+import styles into stylesheet through path - @import - specific elements in seperate files
+./ is current directory
+
+CSS variable 
+variable - reference to specific value 
+define variable by -- eg --main-color: ; --card-title-color: 
+: root {
+    --main-color: rgb(168, 27, 154);
+}
+: root is pseudo class 
+to state variable var(--variable) eg font-family: var(--font-family)
+
+bem - block element modifier 
+define in html - card--primary-color
+card--secondary-color 
+in css .card__paragraph{}
+.card--primary-color
