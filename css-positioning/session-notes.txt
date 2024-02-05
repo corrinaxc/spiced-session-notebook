@@ -1,0 +1,13 @@
+default - static
+relative - stays in position relative to nearest relative
+absolute - moves backwards - absolute to document page - not to relative , use positive z-index to bring forward 
+nth child - h3:nth-child(1){} - first h3 stated on HTML file
+h3:nth-child(2){} etc....
+fixed - viewport - use positive z index to bring forward - takes the space it needs
+vw - view width - aka 100vw full screen
+top: 0;
+margin - first value top + bottom, second value left & right - eg margin: 20px autp; (auto centres and adjusts to view point resixing)
+transform - translate (50%, 50%)
+.sticky{
+    top: 150px; - defines the position that the headline is sticky at 
+}
