@@ -1,0 +1,30 @@
+size of window dictates what window is doing
+useful for different screens
+relative lengths
+vh viewport height
+vw viewport width
+em font size of the parent element
+rem font size of the root element 
+% relative to parent or current elements, dpeneds on propety
+cal() allows to combine multiple units and do math
+
+common breakpoints:
+min-width 600px - small, sm, large mobile
+" 900px - medium, md, tablet
+" etc
+
+@media screen and (min-width: 600px){
+_write changes in here_
+}
+always state box sizes - otherwise will automatically adjust to size it requires (ie 0 if no contents)
+mediabigger screen than 900. doingsmaller is one in image
+body{
+    height:100vh
+}
+flex-grow _ 
+max width {
+    targets small screen
+}
+ min width {
+    targets large screen
+ }
