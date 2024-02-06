@@ -10,3 +10,6 @@ justify-content: space-between; space-around; space-evenly
 gap / row-gap/column-gap: xpx etc .. influence the gap betweem items manually
 align-items: where items should be displayed
 order can be useful
+FLEXBOX NEEDS TO BE DIRECT PARENT
+Flex default direction is row
+Use column and row gap - use these when page Wraps - column horizontally & row vertically
