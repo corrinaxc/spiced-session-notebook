@@ -1,0 +1,12 @@
+Force the browser to render / display in a certain way
+Display navigation in horizontal way - play around with inline (in li items); float; *Flexbox*
+Good practice to not alter the structure of html - just edit using CSS
+display: Flexbox
+flex-direction: - defines the direction (row is default)
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+flex-wrap: wrap - items stay in viewport
+justify-content : center, flex-start, etc. - positions the items
+justify-content: space-between; space-around; space-evenly 
+gap / row-gap/column-gap: xpx etc .. influence the gap betweem items manually
+align-items: where items should be displayed
+order can be useful
