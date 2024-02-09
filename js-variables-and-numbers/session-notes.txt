@@ -1,0 +1,41 @@
+Variable - containers for storing data
+
+Var - old
+Let - new - can change
+Const - new - constant, won't change
+
+Primitive types - numbers, strings, booleans, undefined, null, BigInt, Symbol 
+Reference - objects, arrays, functions, date
+Let nameVariable = 3;
+Const myV = 10;
+
+Use camel case
+Write out all the words
+Longer names better than shorter
+
+<script src="" defer ></script> - defer allows the html to load before the javascript kicks in 
+
+console.log('hi');
+console.clear();
+
+Var oldUse = 'Try not to use me!';
+Let = "use me!"
+
+console.log('oldUse',oldUse); write var every time
+ myBigInt = 2n - use n after to reserve more space 
+
+
+myArray = [] (square brackets) can have more than one data type inside
+
+myObject = {
+	cohort name: "Vanilla",
+amountStudents:10,
+knowsJs: true,
+}; curly brackets
+
+Null for when you want to leave a variable empty - otherwise will come up undefined
+
+parseInt - change string into number
+Typeof<var> will give you the type of the variable
+
+subStringNumber = isNumber - amIaNumber
