@@ -1,0 +1,30 @@
+Works in the same way as flex box - grid in the parent controls the children 
+CSS : 
+display: grid
+gap: 1rem
+grid-auto-columns: 1fr;
+grid-template-areas:
+web web ux
+ds java java da 
+grid-template-columns: 100px/20%/1fr; (sets width of columns)
+grid-template-columns: 1fr 2fr (sets first + second column)
+grid-template-column: repeat(4, 1fr)
+Can set different values for every contrainer
+bootcamp--1{
+    grid-column: span 2
+    grid-column-start:
+    grid-column-end:
+    grid-row-start: 1/ 2span
+    grid-row-end:
+}
+
+
+
+
+grid-template-areas:
+web web ux
+ds java java da 
+
+bootcamp--1:
+grib area:web
+etc
