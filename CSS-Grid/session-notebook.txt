@@ -22,8 +22,8 @@ bootcamp--1{
 
 
 grid-template-areas:
-web web ux
-ds java java da 
+"web web ux"
+"ds java java da"; remember the quote marks and semi colon after! 
 
 bootcamp--1:
 grib area:web
