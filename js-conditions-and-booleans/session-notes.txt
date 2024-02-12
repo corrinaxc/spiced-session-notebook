@@ -1,0 +1,44 @@
+const kidDidHelpCleaningTheKitchen = dishesCleaned > 3;
+if (kidDidHelpCleaningTheKitchen) {
+    carrots= carrots + 3
+} else {
+    carrots = carrots - 2
+}
+
+shortcut:
+    carrot = carrots + (kidDidHelpCleaningTheKitchen ? 3 : -2)
+
+Try to avoid nesting tertiary operators
+
+!true - false
+!false - true
+
+!! convery variable type into boolean type
+
+instead of if, else if, else:
+    switch(season) {
+        case: spring
+        console.log(;spring)
+        break; 
+    case "winter"
+    console.log(snow, ice...")
+    break;
+    default:
+    console.log('no known season')}
+
+    if (month === 'january' || month === 'march') {
+        console.log(31 + ' days')
+        else if (month === days);
+        console.log(30 - ' days')
+    }
+
+    switch(month( {
+        case "January"
+        case "March"
+        Case "May"
+    }))
+
+let - block scoped
+var - function scoped
+
+const needs to have a value
