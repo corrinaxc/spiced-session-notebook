@@ -1,0 +1,34 @@
+console.error() - to show user there is an error
+console.warning() - something not correct - doesn't crash the application
+console.table(['a', 'b', 'c']) - displays array in table on console
+document.- DOM document object model - console.log(document.body) - cannot go any further deeper into the html/css with this, need to use functions >>
+document.querySelector() - can take any class from html:
+    const mainElement = document.querySelector('main')
+    console.log(mainElement)
+add data attributes eg data-js = 'main'
+    const mainElement = document.querySelector('[data-js="main"]') - better to use this incase the class gets changed in html 
+
+add class dark to the main mainElement
+mainElement.classList.add('dark') - no dot!
+mainElement(mainElement.classList)
+
+mainElement.classList.remove('dark') - no dot!
+
+constantly check that what you are doing works
+
+html - <button> type='button' data-js='logging-button'>Log into console</button>
+    js:
+    const logButton  = ducment.querySelector('[data-js='logging-button]')
+    console.log(logButton)
+// add functionality to the button  
+    logButton.addEventListener('click', () => {
+        //this is going to happen when the button is clicked
+        console.log('button clicked')
+        mainElement.classList.add('dark') //this will change the element black
+    })
+
+const helloButton = document.querySelector('[data-js="hello-button])
+helloButton.addEventListener('clock', () => {
+    console.log('hello user')
+})
+
