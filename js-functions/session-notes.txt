@@ -1,0 +1,32 @@
+function run() {
+    console.log('running')
+}
+still need to call on function (invoking/calling) >> run()
+
+Remember to add ()
+
+Parameters
+function display(!!PARAMETERS HERE!! eg word) {
+    console.log("hello")
+}
+
+function sum(a, b) {
+    const reults = a + b
+    console.log(result)
+}
+
+OR
+
+function sum(a, b) {
+    console.log(a+b)
+}
+
+scope
+indented means that it is outside the global scope
+
+function greet(message, name){
+    console.log(message + ' ' + name + '!')
+}
+greet("hello", "sven)
+
+no parameters (aka arguments) - will output undefined but not crash the program
