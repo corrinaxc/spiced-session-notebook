@@ -1,0 +1,38 @@
+use <form>
+<input type='text'>
+<input type=number> - comes with a clicky up/down button
+<input type='button' value='Button'>
+button types:
+    submit - default
+    reset 
+<textarea name="" id="" cols="30"
+rowds="10"></textarea
+<select name="country" id="country">
+    <option value = '1'>Germany</option>
+    <option value="'2'>Austria</option>
+can also use 
+<select name="country" id="country" multiple>
+
+<input type='radio' name = 'option'>
+<input type='radio' name='options >
+
+<input type="checkbox" name="checkbox">
+
+provide id attributes for every input 
+
+<label for="name">Name:</label>
+OR use placeholder
+<input id="name" name="name" type="text" placeholder="Put your name here">
+
+add required into required fields, add max and mins for required fields
+
+<input type='tel' name='' id=''>
+<input type=email' name='' id=''>
+<input type='color' name='' id=''> color picker
+
+<fieldset>
+    <legend> Profile Information</legend>
+</fieldset> 
+used to differentiate between sections
+
+cannot rely on client-side validation - needs to be destination side
