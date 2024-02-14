@@ -1,0 +1,25 @@
+remember to use return in function to return result
+after return , function is exited - ie anything after will not work
+
+arrow function -
+const sum = function(){
+    const result = a + b
+    return result
+}
+
+const sum = (a, b) => {
+    const result = a + b
+    return result
+}
+
+only work on function expression, not declaration 
+
+one parameter - don't need parenthesis
+const run = val => {
+    //
+}
+
+const sum (a, b) => a + b
+
+const run = () => 'running'
+=> means return  - you can put on one line if there is one return statement
